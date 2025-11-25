@@ -1,5 +1,47 @@
-This Time Tracking System is designed to help users efficiently record, manage, and analyze the time spent on various tasks. It aims to improve productivity by offering clear visibility into work patterns through detailed logs and comprehensive reports. The platform supports two main user roles—Admin and User—each equipped with specific functionalities to ensure smooth operation and effective time management.
-Admins are responsible for system oversight and configuration. They can manage user accounts by creating, editing, or deleting user profiles and assigning appropriate roles. This ensures that only authorized individuals can access and modify system features. Admins also handle Time Log Management, where they can review, edit, or remove time logs submitted by users. This functionality maintains data accuracy and allows corrections for any discrepancies in recorded hours.
-Another core responsibility of the admin is Report Generation. Using stored time tracking data, the system can produce detailed reports that highlight productivity trends, total hours worked, and task-based performance metrics. These reports may include graphical charts to make insights more visually intuitive and actionable. This capability is essential for organizations seeking to optimize workflow efficiency and monitor employee output. Additionally, admins can configure system settings such as standard work hours, break times, and other organizational policies through the System Configuration feature.
-Users, on the other hand, primarily interact with the system through time logging and record viewing. The Time Logging functionality allows them to enter details such as start time, end time, and task descriptions. Upon submitting a log, users receive a confirmation indicating successful entry. They can also use the View Time Logs feature to filter and review their previous entries based on date range or task type. This helps users track their productivity, verify recorded hours, and maintain accurate work histories.
-Overall, this Time Tracking System provides a robust framework for monitoring productivity, managing work records, and generating meaningful insights. With clear role-based functionalities and an emphasis on accuracy and usability, it serves as a valuable tool for both individual users and organizational administrators.
+PROBLEM STATEMENT
+Many libraries still rely on manual processes to manage seat reservations, resulting in inefficiencies and inconvenience for both staff and patrons. The lack of a digital reservation system leads to several challenges:
+• Inefficient Seat Utilization
+Without an automated tracking mechanism, seats may remain underutilized, double-booked, or incorrectly assigned.
+• Time-Consuming Processes
+Both staff and users spend excessive time coordinating seat reservations manually.
+• Inaccurate Availability Information
+Users often do not have access to real-time seat availability, leading to frustration and unnecessary trips to the library.
+• Limited Accessibility
+Traditional reservation methods lack flexibility and do not support remote booking or modification of reservations.
+PROJECT OVERVIEW
+The Library Seat Reservation System is a web-based application designed to digitize and streamline seat reservation operations in libraries. Developed using Java, MySQL, HTML, and Maven within IntelliJ IDEA Community Edition, the system provides dedicated features for both users and administrators.
+User Features
+Seat Availability Check: View real-time availability and choose seats.
+Seat Reservation: Reserve seats for chosen hours or time slots.
+Check-In / Check-Out: Manage reservations and confirm seat usage.
+Admin Features
+Reservation Management: View, approve, or modify all reservations.
+Seat Maintenance: Cancel or block reservations for damaged or unavailable seats.
+User Management: Add and manage user accounts.
+TECHNICAL STACK USED
+Frontend Technologies
+HTML: Structure and layout of web pages
+CSS: Styling and UI enhancement
+JavaScript: Interactive features and input validation
+Backend Technologies
+Java: Core backend logic
+Servlets & JSP: Managing server-side requests and responses
+JDBC: Database connectivity and operations
+Database
+MySQL: Stores users, seats, reservations, and system data
+Development Environment
+IntelliJ IDEA Community Edition: Coding, testing, debugging
+Eclipse 2024: Additional IDE support for Java development
+Maven: Dependency and project management
+Version Control
+Git & GitHub: Source code management and team collaboration
+FUTURE ENHANCEMENTS
+The system can be expanded further to increase functionality and user convenience. Potential enhancements include:
+a. Mobile Application Development
+Android/iOS apps for easy reservation, availability checks, and check-in/out.
+b. Real-Time Seat Monitoring (IoT Integration)
+IoT-based sensors to detect seat occupancy and provide live availability updates.
+c. QR Code Check-In/Check-Out
+Contactless verification of reservations using scannable QR codes.
+d. Integration with Campus Systems
+Connecting with student portals, ID systems, and event platforms for a unified experience.
