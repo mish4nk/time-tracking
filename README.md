@@ -1,33 +1,5 @@
-This time tracking system helps users record the time spent on various tasks,
-monitor productivity, and generate comprehensive reports. Users can manage their work hours,
-view time logs, and analyze productivity trends.
-User Types:
-● Admin: Manages the system, oversees user accounts, and generates reports.
-● User: Logs work hours, views time logs, and tracks productivity.
-Functionalities for Admin:
-● User Management:
-○ Input: User details (name, email, role).
-○ Output: Confirmation message for user creation/update/deletion.
-○ Functionality: Admin can create, edit, or delete user accounts and manage user
-roles.
-● Time Log Management:
-○ Input: Time logs (date, hours, task description).
-○ Output: Confirmation message for successful log addition/update/deletion.
-○ Functionality: Admin can review and adjust time logs submitted by users.
-● Report Generation:
-○ Input: Time tracking data, report parameters.
-○ Output: Detailed reports, graphical charts.
-○ Functionality: Generates reports based on time logs, including productivity
-trends and total hours worked.
-● System Configuration:
-○ Input: System settings (work hours, break times).
-○ Output: Confirmation message for successful configuration update.
-○ Functionality: Configures system settings to match organizational policies.
-Functionalities for User:
-● Time Logging:
-○ Input: Time details (start time, end time, task).
-○ Output: Confirmation message for successful log entry.
-○ Functionality: Allows users to log their work hours and tasks.
-● View Time Logs:
-○ Input: Time log query (date range, task).
-○ Output: List of time logs with details.
+This Time Tracking System is designed to help users efficiently record, manage, and analyze the time spent on various tasks. It aims to improve productivity by offering clear visibility into work patterns through detailed logs and comprehensive reports. The platform supports two main user roles—Admin and User—each equipped with specific functionalities to ensure smooth operation and effective time management.
+Admins are responsible for system oversight and configuration. They can manage user accounts by creating, editing, or deleting user profiles and assigning appropriate roles. This ensures that only authorized individuals can access and modify system features. Admins also handle Time Log Management, where they can review, edit, or remove time logs submitted by users. This functionality maintains data accuracy and allows corrections for any discrepancies in recorded hours.
+Another core responsibility of the admin is Report Generation. Using stored time tracking data, the system can produce detailed reports that highlight productivity trends, total hours worked, and task-based performance metrics. These reports may include graphical charts to make insights more visually intuitive and actionable. This capability is essential for organizations seeking to optimize workflow efficiency and monitor employee output. Additionally, admins can configure system settings such as standard work hours, break times, and other organizational policies through the System Configuration feature.
+Users, on the other hand, primarily interact with the system through time logging and record viewing. The Time Logging functionality allows them to enter details such as start time, end time, and task descriptions. Upon submitting a log, users receive a confirmation indicating successful entry. They can also use the View Time Logs feature to filter and review their previous entries based on date range or task type. This helps users track their productivity, verify recorded hours, and maintain accurate work histories.
+Overall, this Time Tracking System provides a robust framework for monitoring productivity, managing work records, and generating meaningful insights. With clear role-based functionalities and an emphasis on accuracy and usability, it serves as a valuable tool for both individual users and organizational administrators.
